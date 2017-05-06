@@ -1,0 +1,6 @@
+E:\_Level Four\Second Term\MIS\Project\TypeScriptHelloWorld\TypeScriptHelloWorld\bin\TypeScriptHelloWorld.dll.config
+E:\_Level Four\Second Term\MIS\Project\TypeScriptHelloWorld\TypeScriptHelloWorld\bin\TypeScriptHelloWorld.dll
+E:\_Level Four\Second Term\MIS\Project\TypeScriptHelloWorld\TypeScriptHelloWorld\bin\TypeScriptHelloWorld.pdb
+E:\_Level Four\Second Term\MIS\Project\TypeScriptHelloWorld\TypeScriptHelloWorld\obj\Debug\TypeScriptHelloWorld.csprojResolveAssemblyReference.cache
+E:\_Level Four\Second Term\MIS\Project\TypeScriptHelloWorld\TypeScriptHelloWorld\obj\Debug\TypeScriptHelloWorld.dll
+E:\_Level Four\Second Term\MIS\Project\TypeScriptHelloWorld\TypeScriptHelloWorld\obj\Debug\TypeScriptHelloWorld.pdb
