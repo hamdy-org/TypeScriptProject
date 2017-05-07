@@ -11,6 +11,7 @@
 </head>
 <body>
 
+    <script src="app.js"></script>
     <div class="container">
 
         <div class="row">
@@ -29,7 +30,7 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <input type="text" name="name" class="input-name" />
+                            <input id="userName" type="text" name="name" class="input-name" />
                         </div>
                     </div>
 
@@ -41,7 +42,7 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                          <select class="dropdown-difficulty" name="difficulty">
+                          <select id="dropdown_diff" class="dropdown-difficulty" name="difficulty">
                               <option value="easy">Easy</option>
                               <option value="normal">Normal</option>
                               <option value="hard">Hard</option>
@@ -52,7 +53,8 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <button type="button" class="btn btn-primary center-block start-btn">Start</button>
+                            <button type="button" id="startBtn" onclick="startBtn()" class="btn btn-primary center-block start-btn">Start</button>
+
                         </div>
                     </div>
 

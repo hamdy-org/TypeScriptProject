@@ -1,29 +1,65 @@
 ﻿
-class Greeter {
-    element: HTMLElement;
-    span: HTMLElement;
-    timerToken: number;
+//class Greeter2 {
+//    element: HTMLElement;
 
-    constructor(element: HTMLElement) {
-        this.element = element;
-        this.element.innerHTML += "The time is: ";
-        this.span = document.createElement('span');
-        this.element.appendChild(this.span);
-        this.span.innerText = new Date().toUTCString();
-    }
+//    btn: HTMLElement;
+//    span: HTMLElement;
+//    timerToken: number;
 
-    start() {
-        this.timerToken = setInterval(() => this.span.innerHTML = new Date().toUTCString(), 500);
-    }
+//    constructor(element: HTMLElement, startBtn: HTMLButtonElement) {
+//        this.element = element;
+//        this.btn = startBtn;
+//        this.element.innerHTML += "The time is: ";
+//        this.span = document.createElement('span');
+//        this.element.appendChild(this.span);
+//        this.span.innerText = new Date().toUTCString();
 
-    stop() {
-        clearTimeout(this.timerToken);
-    }
+//        //clickBtn.addEventListener("click ", this.test); 
 
-}
+//        console.log(this.element);
+//        console.log(this.btn);
 
-window.onload = () => {
-    var el = document.getElementById('content');
-    var greeter = new Greeter(el);
-    greeter.start();
-};
+//        // alert("Alert is ok");
+//        // this.btn.innerHTML = "OK Btn";
+
+//        this.btn.addEventListener("click", () => this.test());
+
+//        //clickBtn.onclick = function clickBtnFun() {
+//        //    alert("OK");
+//        //    window.open("A_1.html");
+//        //};
+//    }
+
+
+
+//    test() {
+
+//        window.open("A_1.html");
+//    }
+
+//    start() {
+//        this.timerToken = setInterval(() => this.span.innerHTML = new Date().toUTCString(), 500);
+//    }
+
+//    stop() {
+//        clearTimeout(this.timerToken);
+//    }
+
+//}
+
+
+//document.getElementById('button').onclick = function () {
+//    alert("button was clicked");
+//}​;
+
+//window.onload = () => {
+//    var el = document.getElementById('container');
+//    var startBtn = document.getElementById("startBtn");
+//    var greeter2 = new Greeter2(el, clickBtn);
+
+//    greeter2.start();
+//};
+
+
+
+
