@@ -38,6 +38,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="A_1.ts" />
+    <TypeScriptCompile Include="userdata.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
