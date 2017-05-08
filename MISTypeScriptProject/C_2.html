@@ -2,7 +2,7 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 
     <link href="bootstrap.css" rel="stylesheet" />
 
@@ -16,7 +16,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <div class="center-block frame"  >
+                <div class="center-block frame">
                     <h3 class="text-center">My JS Game</h3>
                     <div class="hr1">
                         <hr />
@@ -24,42 +24,31 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <label>Your Name:</label>
+                            <h5 class="text-center"><label id="username"></label> ! You Lost<br /> Highscore</h5>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <input id="userName" type="text" name="name" class="input-name" />
+                            <h5 class="text-center">Current Score : <label id="userscore"></label></h5>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <label>Difficulty:</label>
+                            <h5 class="text-center">High Score : <label id="userscore"></label></h5>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-12">
-                          <select id="dropdown_diff" class="dropdown-difficulty" name="difficulty">
-                              <option value="easy">Easy</option>
-                              <option value="normal">Normal</option>
-                              <option value="hard">Hard</option>
-
-                          </select>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <button type="button" id="startBtn" onclick="startBtn()" class="btn btn-primary center-block start-btn">Start</button>
+                            <button type="button" id="startBtn" onclick="playAgain()" class="btn btn-primary center-block start-btn">Play Again</button>
 
                         </div>
                     </div>
 
 
-                 
+
                 </div>
             </div>
         </div>

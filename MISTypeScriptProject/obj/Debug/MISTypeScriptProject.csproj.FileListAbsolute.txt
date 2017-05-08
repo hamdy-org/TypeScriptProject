@@ -1,0 +1,6 @@
+E:\_Level Four\Second Term\MIS\Project\NEW2\MISTypeScriptProject\MISTypeScriptProject\bin\MISTypeScriptProject.dll.config
+E:\_Level Four\Second Term\MIS\Project\NEW2\MISTypeScriptProject\MISTypeScriptProject\bin\MISTypeScriptProject.dll
+E:\_Level Four\Second Term\MIS\Project\NEW2\MISTypeScriptProject\MISTypeScriptProject\bin\MISTypeScriptProject.pdb
+E:\_Level Four\Second Term\MIS\Project\NEW2\MISTypeScriptProject\MISTypeScriptProject\obj\Debug\MISTypeScriptProject.csprojResolveAssemblyReference.cache
+E:\_Level Four\Second Term\MIS\Project\NEW2\MISTypeScriptProject\MISTypeScriptProject\obj\Debug\MISTypeScriptProject.dll
+E:\_Level Four\Second Term\MIS\Project\NEW2\MISTypeScriptProject\MISTypeScriptProject\obj\Debug\MISTypeScriptProject.pdb
